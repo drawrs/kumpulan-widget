@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.khilman.www.kumpulanwidget.MainActivity">
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner"/>
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"/>
+    <Button
+        android:id="@+id/btnMsgBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Box"/>
+    <Button
+        android:id="@+id/btnViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Pager"/>
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video Player"/>
+<Button
+        android:id="@+id/btnRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Player"/>
+
+</LinearLayout>
